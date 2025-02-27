@@ -50,3 +50,34 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
+.card-img-top {
+    width: 50px;
+}
+
+.card {
+    padding: 25px 20px;
+    border: 2px solid rgba( blue);
+    transition: all ease-in .4s;
+
+}
+
+.card:hover {
+    box-shadow: 0  0 45px rgb(red);
+    transform: scale(1.1);
+    background-color: rgb(255, 127, 127);
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    color: aliceblue;
+}
+section{
+    padding: 100px 0;
+}
+
+#sugpon h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  65px;
+    color:green;
+    margin-bottom: 30px;
+}
